@@ -12,7 +12,7 @@ public class GuitarTest {
 
     @Before
     public void setUp() {
-        guitar = new Guitar("Electric Bass", 4, "Varnished Oak");
+        guitar = new Guitar("Fender","String","Red","Electric Bass", 4, "Varnished Oak");
     }
 
     @Test
@@ -33,6 +33,13 @@ public class GuitarTest {
     @Test
     public void canGetSoundPlayed() {
         assertEquals("Sound of a guitar", guitar.play());
+    }
+
+    @Test
+    public void canGetSuperClassElements() {
+        assertEquals("Fender", guitar.getManufacturer());
+        assertEquals("String", guitar.getInstrumentFamily());
+        assertEquals("Red", guitar.getColour());
     }
 
 }

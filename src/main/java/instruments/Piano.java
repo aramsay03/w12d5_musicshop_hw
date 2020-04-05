@@ -1,11 +1,12 @@
 package instruments;
 
-public class Piano implements IPlay {
+public class Piano extends Instrument implements IPlay {
 
     private String type;
     private int numberOfKeys;
 
-    public Piano(String type, int numberOfKeys) {
+    public Piano(String manufacturer, String instrumentFamily, String colour, String type, int numberOfKeys) {
+        super(manufacturer, instrumentFamily, colour);
         this.type = type;
         this.numberOfKeys = numberOfKeys;
     }

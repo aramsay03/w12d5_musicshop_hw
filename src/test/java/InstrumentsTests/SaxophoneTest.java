@@ -12,7 +12,7 @@ public class SaxophoneTest {
 
     @Before
     public void setUp() {
-        saxophone = new Saxophone("Tenor", "Brass");
+        saxophone = new Saxophone("Yamaha","Brass", "Silver","Tenor", "Brass");
     }
 
     @Test
@@ -28,6 +28,13 @@ public class SaxophoneTest {
     @Test
     public void canGetSoundPlayed() {
         assertEquals("Sound of a saxophone", saxophone.play());
+    }
+
+    @Test
+    public void canGetSuperClassElements() {
+        assertEquals("Yamaha", saxophone.getManufacturer());
+        assertEquals("Brass", saxophone.getInstrumentFamily());
+        assertEquals("Silver", saxophone.getColour());
     }
 
 }

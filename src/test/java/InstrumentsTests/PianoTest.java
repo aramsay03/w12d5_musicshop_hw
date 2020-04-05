@@ -12,7 +12,7 @@ public class PianoTest {
 
     @Before
     public void setUp() {
-        piano = new Piano("Grand Piano", 88);
+        piano = new Piano("Yamaha", "Piano","Black","Grand Piano", 88);
     }
 
     @Test
@@ -28,6 +28,13 @@ public class PianoTest {
     @Test
     public void canGetSoundPlayed() {
         assertEquals("Sound if a piano", piano.play());
+    }
+
+    @Test
+    public void canGetSuperClassElements() {
+        assertEquals("Yamaha", piano.getManufacturer());
+        assertEquals("Piano", piano.getInstrumentFamily());
+        assertEquals("Black", piano.getColour());
     }
 
 }

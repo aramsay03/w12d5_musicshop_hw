@@ -1,12 +1,13 @@
 package instruments;
 
-public class Guitar implements IPlay{
+public class Guitar extends Instrument implements IPlay{
 
     private String type;
     private int numberOfStrings;
     private String material;
 
-    public Guitar(String type, int numberOfStrings, String material) {
+    public Guitar(String manufacturer, String instrumentFamily, String colour, String type, int numberOfStrings, String material) {
+        super(manufacturer, instrumentFamily, colour);
         this.type = type;
         this.numberOfStrings = numberOfStrings;
         this.material = material;
@@ -27,4 +28,5 @@ public class Guitar implements IPlay{
     public String play() {
         return "Sound of a guitar";
     }
+
 }
