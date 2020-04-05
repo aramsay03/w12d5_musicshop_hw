@@ -12,7 +12,7 @@ public class SaxophoneTest {
 
     @Before
     public void setUp() {
-        saxophone = new Saxophone("Yamaha","Brass", "Silver","Tenor", "Brass");
+        saxophone = new Saxophone("Yamaha","Brass", "Silver", 1260,"Tenor", "Brass");
     }
 
     @Test

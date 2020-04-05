@@ -12,7 +12,7 @@ public class PianoTest {
 
     @Before
     public void setUp() {
-        piano = new Piano("Yamaha", "Piano","Black","Grand Piano", 88);
+        piano = new Piano("Yamaha", "Piano","Black", 56700,"Grand Piano", 88);
     }
 
     @Test

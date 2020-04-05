@@ -12,7 +12,7 @@ public class GuitarTest {
 
     @Before
     public void setUp() {
-        guitar = new Guitar("Fender","String","Red","Electric Bass", 4, "Varnished Oak");
+        guitar = new Guitar("Fender","String","Red",375.68,"Electric Bass", 4, "Varnished Oak");
     }
 
     @Test
@@ -40,6 +40,17 @@ public class GuitarTest {
         assertEquals("Fender", guitar.getManufacturer());
         assertEquals("String", guitar.getInstrumentFamily());
         assertEquals("Red", guitar.getColour());
+    }
+
+    @Test
+    public void canGetRetailPrice() {
+        assertEquals(0, guitar.getRetailPrice(), 0.00);
+    }
+
+    @Test
+    public void checkThatCanCalculateMarkUp() {
+        guitar.calculateMarkup(375.68);
+        assertEquals(1127.04, guitar.getRetailPrice(), 0.00);
     }
 
 }
