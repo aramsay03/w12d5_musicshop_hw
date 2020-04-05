@@ -1,6 +1,6 @@
 package instruments;
 
-public class Guitar {
+public class Guitar implements IPlay{
 
     private String type;
     private int numberOfStrings;
@@ -22,5 +22,9 @@ public class Guitar {
 
     public String getMaterial() {
         return material;
+    }
+
+    public String play() {
+        return "Sound of a guitar";
     }
 }

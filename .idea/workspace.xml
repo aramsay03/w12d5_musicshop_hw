@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02598692-05b2-4060-8dd5-cf4b6fd9b92e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/Saxaphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InstrumentsTests/SaxaphoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/instruments/IPlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Saxaphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Saxophone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentsTests/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentsTests/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentsTests/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentsTests/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentsTests/SaxaphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentsTests/SaxophoneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/instruments/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/instruments/Guitar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InstrumentsTests/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InstrumentsTests/GuitarTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,9 +73,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuitarTest.canGetSoundPlayed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MusicShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="InstrumentsTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="InstrumentsTests" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentsTests.GuitarTest" />
+      <option name="METHOD_NAME" value="canGetSoundPlayed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in MusicShop" />
+        <item itemvalue="JUnit.GuitarTest.canGetSoundPlayed" />
         <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
@@ -89,21 +115,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586089442255" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586090977551">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1586097198320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586090977551" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586090977548">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586097198320" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586096411888">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586090977548" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586090977546">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586096411888" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586096411886">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586090977546" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586090977550">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586096411886" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586096411885">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586090977550" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586096411885" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586096411887">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-277.-1080.1920.1080@0.0.1440.900" timestamp="1586096411887" />
   </component>
 </project>

@@ -30,4 +30,9 @@ public class GuitarTest {
         assertEquals("Varnished Oak", guitar.getMaterial());
     }
 
+    @Test
+    public void canGetSoundPlayed() {
+        assertEquals("Sound of a guitar", guitar.play());
+    }
+
 }

@@ -1,6 +1,6 @@
 package instruments;
 
-public class Piano {
+public class Piano implements IPlay {
 
     private String type;
     private int numberOfKeys;
@@ -16,5 +16,9 @@ public class Piano {
 
     public int getNumberOfKeys() {
         return this.numberOfKeys;
+    }
+
+    public String play() {
+        return "Sound if a piano";
     }
 }
