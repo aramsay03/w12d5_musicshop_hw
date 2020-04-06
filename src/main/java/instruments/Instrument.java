@@ -1,6 +1,8 @@
 package instruments;
 
-public abstract class Instrument {
+import shop.ISell;
+
+public abstract class Instrument implements ISell {
 
     protected String manufacturer;
     protected String instrumentFamily;

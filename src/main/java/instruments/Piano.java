@@ -2,7 +2,7 @@ package instruments;
 
 import shop.ISell;
 
-public class Piano extends Instrument implements IPlay, ISell {
+public class Piano extends Instrument implements IPlay {
 
     private String type;
     private int numberOfKeys;
@@ -25,7 +25,7 @@ public class Piano extends Instrument implements IPlay, ISell {
         return "Sound if a piano";
     }
 
-    public void calculateMarkup(double costPrice) {
-        super.retailPrice = costPrice * markup;
+    public double calculateMarkup(double costPrice) {
+        return super.retailPrice = costPrice * markup;
     }
 }

@@ -1,8 +1,7 @@
 package instruments;
 
-import shop.ISell;
 
-public class Guitar extends Instrument implements IPlay, ISell {
+public class Guitar extends Instrument implements IPlay {
 
     private String type;
     private int numberOfStrings;
@@ -31,7 +30,8 @@ public class Guitar extends Instrument implements IPlay, ISell {
         return "Sound of a guitar";
     }
 
-    public void calculateMarkup(double costPrice) {
-        super.retailPrice = costPrice * markup;
+    public double calculateMarkup(double costPrice) {
+        return super.retailPrice = costPrice * markup;
     }
+
 }

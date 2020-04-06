@@ -2,7 +2,7 @@ package instruments;
 
 import shop.ISell;
 
-public class Saxophone extends Instrument implements IPlay, ISell {
+public class Saxophone extends Instrument implements IPlay {
 
     private String type;
     private String material;
@@ -25,8 +25,8 @@ public class Saxophone extends Instrument implements IPlay, ISell {
         return "Sound of a saxophone";
     }
 
-    public void calculateMarkup(double costPrice) {
-        super.retailPrice = costPrice * markup;
+    public double calculateMarkup(double costPrice) {
+        return super.retailPrice = costPrice * markup;
     }
 
 }
